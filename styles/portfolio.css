@@ -1,13 +1,45 @@
-h1 {
-  text-align: center;
-  font-family: 'Radley', serif;
-  font-size: 75px;
+:root {
+  --primary-color: #191919;
+  --secondary-color: #9b4819;
+  --background-color: #f4f1e8;
+  --primary-font: 'Radley', serif;
 }
+
+h1 {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
 h2 {
-  text-align: center;
-  font-family: 'Radley', serif;
+  font-family: var(--primary-font);
   font-size: 23px;
+  margin-bottom: 80px;
+  color: (--primary-color);
+  letter-spacing: 1px;
+  line-height: 1.5;
 }
 .hello {
+  font-family: var(--primary-font);
+  font-size: 75px;
   font-style: italic;
+  color: (--primary-color);
+}
+.name {
+  font-family: var(--primary-font);
+  font-size: 75px;
+  color: var(--secondary-color);
+}
+.hero {
+  background-color: var(--background-color);
+  text-align: center;
+  padding: 80px;
+}
+.journey-button {
+  color: white;
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  font-style: italic;
+  font-family: var(--primary-font);
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
 }
