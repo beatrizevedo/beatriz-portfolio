@@ -1,0 +1,13 @@
+h1 {
+  text-align: center;
+  font-family: 'Radley', serif;
+  font-size: 75px;
+}
+h2 {
+  text-align: center;
+  font-family: 'Radley', serif;
+  font-size: 23px;
+}
+.hello {
+  font-style: italic;
+}
