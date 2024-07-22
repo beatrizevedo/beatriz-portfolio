@@ -129,7 +129,7 @@ img:hover {
   transform: scale(1.1);
 }
 .row {
-  margin: 0px 150px 70px 150px;
+  margin-bottom: 70px;
 }
 @media (max-width: 576px) {
   .about-me-section {
