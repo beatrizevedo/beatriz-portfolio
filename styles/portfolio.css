@@ -131,6 +131,43 @@ img:hover {
 .row {
   margin-bottom: 70px;
 }
+.first-project {
+  text-align: right;
+}
+.about-page {
+  margin-top: 80px;
+}
+.projects-text-left {
+  margin-left: 170px;
+  text-align: left;
+}
+.projects-text-right {
+  margin-right: 170px;
+  text-align: right;
+}
+.about-page h3 {
+  font-size: 35px;
+}
+.about-page h4 {
+  font-size: 20px;
+}
+.about-page p {
+  margin-bottom: 30px;
+}
+.about-page a {
+  font-style: italic;
+  text-decoration: none;
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+}
+.about-page a:hover {
+  text-decoration: underline;
+}
+.about-page img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
 @media (max-width: 576px) {
   .about-me-section {
     text-align: center;
@@ -138,5 +175,22 @@ img:hover {
   h3 {
     text-align: center;
     font-size: 28px;
+  }
+  h4 {
+    text-align: center;
+  }
+  .navigation-button {
+    font-size: 18px;
+  }
+  .journey-button {
+    font-size: 18px;
+  }
+  .projects-text-left {
+    text-align: center;
+    margin: 0 0 0 0;
+  }
+  .projects-text-right {
+    text-align: center;
+    margin: 0 0 0 0;
   }
 }
