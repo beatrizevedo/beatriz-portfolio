@@ -54,6 +54,29 @@ p {
   line-height: 1.5;
   max-width: 500px;
 }
+nav {
+  text-align: center;
+  background-color: var(--background-color);
+  padding-top: 40px;
+  padding-bottom: 0px;
+}
+nav ul {
+  margin-bottom: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  font-family: var(--titles-font);
+  padding: 20px 30px 20px 30px;
+}
+nav a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+nav a:hover {
+  color: var(--secondary-color);
+}
+
 .hello {
   font-family: var(--primary-font);
   font-size: 75px;
@@ -78,13 +101,13 @@ p {
   font-family: var(--primary-font);
   padding: 5px 30px 5px 30px;
   border-radius: 12px;
-  font-size: 18px;
+  font-size: 15px;
 }
 .navigation-button {
   color: white;
   background-color: var(--secondary-color);
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
   font-style: italic;
   font-family: var(--primary-font);
   padding: 5px 30px 5px 30px;
@@ -180,10 +203,10 @@ img:hover {
     text-align: center;
   }
   .navigation-button {
-    font-size: 18px;
+    font-size: 15px;
   }
   .journey-button {
-    font-size: 18px;
+    font-size: 15px;
   }
   .projects-text-left {
     text-align: center;
