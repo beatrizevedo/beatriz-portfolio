@@ -62,6 +62,7 @@ nav {
 }
 nav ul {
   margin-bottom: 0;
+  padding-left: 0;
 }
 nav li {
   display: inline;
@@ -75,6 +76,27 @@ nav a {
 }
 nav a:hover {
   color: var(--secondary-color);
+}
+footer {
+  text-align: center;
+}
+footer h3 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+footer a {
+  font-style: italic;
+  font-size: 20px;
+  font-family: var(--primary-font);
+  text-decoration: none;
+  color: var(--secondary-color);
+  margin: 0 15px;
+}
+footer .social-links {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 .hello {
@@ -195,9 +217,12 @@ img:hover {
   .about-me-section {
     text-align: center;
   }
+  h1 {
+    text-align: center;
+  }
   h3 {
     text-align: center;
-    font-size: 28px;
+    font-size: 25px;
   }
   h4 {
     text-align: center;
