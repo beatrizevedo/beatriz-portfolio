@@ -32,17 +32,21 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/portfolio.css" />
+    <meta
+      name="description"
+      content="Get to know Beatriz Azevedo and her projects, while is learning how to code."
+    />
     <title>Portfolio - Beatriz Azevedo</title>
   </head>
   <body>
     <nav>
       <ul>
-        <li>
-          <a href="/">Homepage</a>
+        <li class="active">
+          <a href="/" title="Homepage">Homepage</a>
         </li>
-        <li><a href="/about.html">About me</a></li>
-        <li><a href="/projects.html">Projects</a></li>
-        <li><a href="/about.html#contacts">Contact me</a></li>
+        <li><a href="/about.html" title="About me">About me</a></li>
+        <li><a href="/projects.html" title="Projects">Projects</a></li>
+        <li><a href="/index.html#contacts" title="Contacts">Contact me</a></li>
       </ul>
     </nav>
     <div class="hero">
@@ -51,8 +55,8 @@
         <span class="name" id="name"></span>
       </h1>
       <h2>
-        I am digital marketing professional <br />
-        that decided to give it a shot on coding and programming.
+        I am a digital marketing professional <br />
+        who decided to give it a shot on coding and programming.
       </h2>
       <a class="journey-button" href="#">Get to know me</a>
     </div>
@@ -82,8 +86,15 @@
             the projects that I've completed during the process.
           </p>
 
-          <a href="#" class="navigation-button">My Projects</a>
-          <a href="#" class="navigation-button">Contacts</a>
+          <a href="/projects.html" class="navigation-button" title="Projects"
+            >My Projects</a
+          >
+          <a
+            href="/index.html#contacts"
+            class="navigation-button"
+            title="Contacts"
+            >Contacts</a
+          >
         </div>
       </div>
     </div>
@@ -94,17 +105,32 @@
           <div class="col-sm-4">
             <img src="images/1.png" alt="world-clock-app" class="img-fluid" />
             <h6>< World Clock ></h6>
-            <a href="#" class="project-link">Get to know the time worldwide</a>
+            <a
+              href="https://beatriz-world-clock.netlify.app/"
+              title="World Clock"
+              class="project-link"
+              >Get to know the time worldwide</a
+            >
           </div>
           <div class="col-sm-4">
             <img src="images/2.png" alt="weather-app" class="img-fluid" />
             <h6>< Weather App ></h6>
-            <a href="#" class="project-link">Check the weather in your city</a>
+            <a
+              href="https://beatriz-weather-app.netlify.app/"
+              title="Weather App"
+              class="project-link"
+              >Check the weather in your city</a
+            >
           </div>
           <div class="col-sm-4">
             <img src="images/3.png" alt="charlot-chat" class="img-fluid" />
             <h6>< Charlot C(h)at ></h6>
-            <a href="#" class="project-link">Launch AI Project</a>
+            <a
+              href="https://charlot-chat.netlify.app/"
+              title="Charlot Chat"
+              class="project-link"
+              >Launch AI Project</a
+            >
           </div>
         </div>
       </div>
@@ -112,14 +138,16 @@
     </div>
     <footer class="contacts">
       <h3>< Let's get in touch? ></h3>
-      <a href="mailto:bia.azevedo@live.com.pt" class="email-link"
+      <a href="mailto:bia.azevedo@live.com.pt" class="email-link" title="email"
         >bia.azevedo@live.com.pt</a
       >
       <div class="social-links">
-        <a href="https://www.linkedin.com/in/beatriz-azevedo-marketing-digital/"
+        <a
+          href="https://www.linkedin.com/in/beatriz-azevedo-marketing-digital/"
+          title="linkedin"
           ><i class="fa-brands fa-linkedin-in"></i
         ></a>
-        <a href="https://github.com/beatrizevedo"
+        <a href="https://github.com/beatrizevedo" title="github"
           ><i class="fa-brands fa-github"></i
         ></a>
       </div>

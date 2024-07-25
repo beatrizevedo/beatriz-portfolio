@@ -70,6 +70,9 @@ nav li {
   font-family: var(--titles-font);
   padding: 20px 30px 20px 30px;
 }
+nav li.active a {
+  font-weight: bold;
+}
 nav a {
   color: var(--primary-color);
   text-decoration: none;
@@ -159,6 +162,7 @@ footer .social-links {
 .project-link:hover {
   text-decoration: underline;
 }
+
 img {
   width: 280px;
   display: block;
